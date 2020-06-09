@@ -1,8 +1,7 @@
 ---
 deployment:
- tasks:
- - export DEPLOYPATH=/home/jonepxzx/public_html/
- - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH                   #copy all recursively to $DEPLOYPATH
-        
-        
+  tasks:
+    - export DEPLOYPATH=/home/jonepwzx/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R videos $DEPLOYPATH
