@@ -114,7 +114,7 @@ header {
 }
 
 header .header-brand {
-    font-family: 'Tw Cen MT';
+    font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 900;
     font-size: 24px;
     color: #111;
@@ -139,7 +139,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-family: 'Tw Cen MT';
+    font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 300;
     font-size: 24px;
     color: #111;
@@ -170,7 +170,7 @@ header .header-projects{
 
    header .header-projects {
        display: block;
-       font-family: 'Tw Cen MT';
+       font-family: 'Tw Cen MT', 'Calibri';
        font-weight: 900;
        font-size: 16px;
        color: #111;
@@ -215,7 +215,7 @@ header .header-projects{
 }
 
 .index-links div h3 {
-    font-family: 'Tw Cen MT';
+    font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 600;
     font-size: 28px;
     line-height: 100px;
@@ -280,7 +280,7 @@ footer ul li{
 }
 
 footer ul li a {
-    font-family: 'Tw Cen MT';
+    font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 400;
     font-size: 24px;
     color: #fff;
@@ -315,7 +315,7 @@ footer ul li a {
     }
 
     footer ul li p {
-        font-family: 'Tw Cen MT';
+        font-family: 'Tw Cen MT', 'Calibri';
         font-weight: 400;
         font-size: 24px;
         color: #fff;
