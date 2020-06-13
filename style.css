@@ -118,7 +118,7 @@ header {
 
 header .header-brand {
     display: block;
-    padding: 20px 16px 0px 32px;
+    padding: 20px 12px 0px 20px;
     float: left;
 }
 
@@ -132,13 +132,13 @@ header nav ul li {
     display: inline-block;
     float: left;
     list-style: none;
-    padding: 0px 16px;
+    padding: 0px 12px;
 }
 
 header nav ul li a {
     font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     color: #f2f2f2;
 }
@@ -264,7 +264,7 @@ footer ul p {
 }
 
 .footer-links-recent-work {
-    display: none;
+        display: block;
 }
 
 .footer-sm {
@@ -279,6 +279,5 @@ footer ul p {
 
 @media only screen and (min-width: 1024px) {
     .footer-links-recent-work {
-        display: block;
     }
 }
