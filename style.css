@@ -171,11 +171,7 @@ header nav ul li a {
     width: calc(100% - 32px);
 }
 
-.index-boxlink-square img{
-    display: none;
-}
-
-.index-boxlink-rectangle img {
+.index-boxlink-square img {
     display: none;
 }
 
