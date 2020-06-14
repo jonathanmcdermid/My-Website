@@ -103,6 +103,10 @@ main {
     padding-top: 100px;
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 header {
     position: fixed;
     top: 0px;
@@ -146,22 +150,19 @@ header nav ul li a {
 /*INDEX*/
 
 .index-banner {
+    margin-top:-32px;
     width: 100%;
-    display: table;
-    align-items: center;
-    justify-content: center;
-}
-
-.index-banner-video-background {
-    display: block;
-    margin: 0 auto;
-    max-width: 60%;
-    z-index: -1;
+    height: 110vh;
+    background-image: url('images/background.png');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .index-links div {
     margin: 16px 16px 0px;
-    width: calc(100% - 32px);
+    width: 100%;
     height: 100px;
     background-color: #f2f2f2;
 }
@@ -172,10 +173,6 @@ header nav ul li a {
 
 .index-boxlink-square img{
     display: none;
-}
-
-.index-boxlink-rectangle {
-    width: calc(100% - 32px);
 }
 
 .index-boxlink-rectangle img {
@@ -193,7 +190,7 @@ header nav ul li a {
 }
 
 @media only screen and (min-width: 1024px) {
-    .wrapper {
+    .content-wrapper {
         width: 1024px;
         margin: 0px auto;
     }
@@ -203,17 +200,13 @@ header nav ul li a {
     }
 
     .index-links div {
-        margin: 16px 16px 0px 0px;
-        height: calc(50% - 32px) !important;
+        margin: 16px 8px 0px 8px;
+        height: calc(50% - 64px) !important;
         float: left;
     }
 
     .index-boxlink-square {
         width: calc(25% - 16px) !important;
-    }
-
-    .index-boxlink-rectangle {
-        width: calc(50% - 32px) !important;
     }
 
     .index-boxlink-square img {
@@ -225,12 +218,8 @@ header nav ul li a {
         justify-content: center;
     }
 
-    .index-boxlink-rectangle img {
-        width: calc(100% - 32px);
-    }
-
     .index-links div h3 {
-        line-height: 224px;
+        line-height: 64px;
     }
 }
 
@@ -295,10 +284,4 @@ footer ul p {
 .footer-sm img {
     width: 100%;
     margin-bottom: 16px;
-}
-
-@media only screen and (min-width: 1024px) {
-    .footer-links-recent-work {
-
-    }
 }
