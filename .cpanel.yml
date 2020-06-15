@@ -4,6 +4,10 @@ deployment:
     - export DEPLOYPATH=/home/jonepwzx/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp projects.html $DEPLOYPATH
+    - /bin/cp chess-engine.html $DEPLOYPATH
+    - /bin/cp graphics-engine.html $DEPLOYPATH
+    - /bin/cp maze-bot.html $DEPLOYPATH
+    - /bin/cp personal-website.html $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp contact.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
