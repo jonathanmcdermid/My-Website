@@ -93,7 +93,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="chess-engine.html" />
     <Content Include="contact.html" />
+    <Content Include="graphics-engine.html" />
+    <Content Include="maze-bot.html" />
+    <Content Include="personal-website.html" />
     <Content Include="projects.html" />
     <Content Include="index.html" />
     <Content Include="style.css" />
