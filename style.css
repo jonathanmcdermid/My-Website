@@ -178,6 +178,7 @@ h1 {
     height: auto;
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 16px;
 }
 
 .standard-banner li {
@@ -197,6 +198,37 @@ h1 {
 
 .standard-banner li img {
     display: none;
+}
+
+.standard-content {
+    width: calc(100vw -64px);
+    margin: 8px 16px 8px 16px;
+}
+
+.standard-content li {
+    width: 100%;
+    float: left;
+    display: block;
+    list-style: none;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.standard-content li a {
+    font-family: 'Tw Cen MT', 'Calibri';
+    font-weight: 600;
+    font-size: 24px;
+    color: #111;
+    padding:2px 2px 2px 2px;
+    border: 2px solid;
+}
+
+.standard-content li p {
+    font-family: 'Tw Cen MT', 'Calibri';
+    font-weight: 200;
+    font-size: 20px;
+    color: #111;
+    margin: 16px 0px 16px 0px;
 }
 
 @media only screen and (min-width: 1024px) {
