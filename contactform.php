@@ -1,12 +1,12 @@
 ﻿<?php
 
-    $mailFrom = $_POST['email'];
-	$message = $_POST['message'];
+    $mailFrom = $_GET['email'];
+	$message = $_GET['message'];
 	$mailTo = "jonathan.mcdermid1@ucalgary.ca";
 	$subject = "A website user wants to talk!";
 	$txt = "\n".$message;
 
-    if ($_POST['submit']) {
+    if ($_GET['submit']) {
         if (mail ($mailTo, $subject, $txt, $mailFrom)) { 
             header("Location: contact.html");
             echo '<p>Your message has been sent!</p>';
