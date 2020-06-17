@@ -94,7 +94,7 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="chess-engine.html" />
-    <None Include="contact.php" />
+    <Content Include="contact.html" />
     <Content Include="graphics-engine.html" />
     <Content Include="maze-bot.html" />
     <Content Include="personal-website.html" />
