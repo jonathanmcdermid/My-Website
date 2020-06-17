@@ -1,6 +1,6 @@
 ﻿<?php
 
-if(!empty($_POST["submit"])) {
+if($_POST['submit']) {
 	$mailFrom = $_POST['email'];
 	$message = $_POST['message'];
 
