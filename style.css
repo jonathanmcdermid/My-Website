@@ -148,11 +148,10 @@ header nav ul li a {
 }
 
 h1 {
-    margin-left: 32px;
+    margin-left: 8px;
     font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 600;
     font-size: 48px;
-    line-height: 100px;
     color: #111;
     text-transform: uppercase;
     text-align: center;
@@ -176,9 +175,8 @@ h1 {
 .standard-banner {
     width: calc(100%-32px);
     height: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
+    margin: 0px 16px 0px 16px;
+    padding: 0px 0px 16px 0px;
 }
 
 .standard-banner li {
@@ -190,10 +188,9 @@ h1 {
     font-family: 'Tw Cen MT', 'Calibri';
     font-weight: 600;
     font-size: 32px;
-    line-height: 100px;
     color: #111;
     text-transform: uppercase;
-    margin-right: 8px;
+    margin: 0px 8px 0px 0px;
 }
 
 .standard-banner li img {
@@ -202,7 +199,7 @@ h1 {
 
 .standard-content {
     width: calc(100vw -64px);
-    margin: 8px 16px 8px 16px;
+    margin: 64px 16px 0px 16px;
 }
 
 .standard-content li {
@@ -210,8 +207,7 @@ h1 {
     float: left;
     display: block;
     list-style: none;
-    margin-bottom: 8px;
-    margin-top: 8px;
+    margin-bottom: 32px;
 }
 
 .standard-content li a {
@@ -228,25 +224,63 @@ h1 {
     font-weight: 200;
     font-size: 20px;
     color: #111;
-    margin: 16px 0px 16px 0px;
 }
 
 @media only screen and (min-width: 1024px) {
     .standard-banner li a {
-        font-size: 48px;
+        font-size: 64px;
     }
 
     .standard-banner li img {
         display: block;
         width: 64px;
-        margin-top: 16px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin: 0px 16px;
     }
 }
 
-/*PAGELINKS*/
+/*CONTACT*/
 
+form {
+    width: calc(100%-32px);
+    margin: 0px 16px 0px 16px;
+}
+
+input {
+    outline: none;
+    border: 1px solid #111;
+    width: 100%;
+    margin: 8px 0px 8px 0px;
+    font-family: 'Tahoma','Tw Cen MT', 'Calibri';
+    font-weight: 200;
+    font-size: 16px;
+}
+
+textarea {
+    outline: none;
+    border: 1px solid #111;
+    resize: none;
+    width: 100%;
+    height: 300px;
+    margin: 8px 0px 8px 0px;
+    font-family: 'Tahoma','Tw Cen MT', 'Calibri';
+    font-weight: 200;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid dodgerblue;
+}
+
+button {
+    width: 100%;
+    height: 32px;
+    margin: 8px 0px 8px 0px;
+    font-family: 'Tahoma','Tw Cen MT', 'Calibri';
+    font-weight: 200;
+    font-size: 16px;
+}
+
+/*PAGELINKS*/
 .page-links div {
     margin: 16px 16px 0px;
     width: 100%;
