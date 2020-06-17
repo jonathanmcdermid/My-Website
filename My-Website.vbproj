@@ -99,7 +99,7 @@
     <Content Include="maze-bot.html" />
     <Content Include="personal-website.html" />
     <Content Include="projects.html" />
-    <None Include="index.php" />
+    <Content Include="index.html" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

@@ -11,4 +11,5 @@ deployment:
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp contact.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp contactform.php $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
