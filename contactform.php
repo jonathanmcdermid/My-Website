@@ -9,4 +9,3 @@
         header("Location: contact.html");
         echo 'Your message has been sent!';
     }
-?>
