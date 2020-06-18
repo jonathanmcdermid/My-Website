@@ -1,7 +1,7 @@
-﻿<?php
+﻿﻿<?php
     if ($_POST['submit']) {
-        $mailFrom = "admin@jon.engineering";
-        $mailTo = "jonathan.mcdermid1@ucalgary.ca";
+        $mailFrom = "jonepwzx@server33.web-hosting.com";
+        $mailTo = "admin@jon.engineering";
         $txt = $_POST['message'];
 	    $subject = "A user wants to talk! From: " .$_POST['email'];
         $headers = "From :" .$mailFrom;
