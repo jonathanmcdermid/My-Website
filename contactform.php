@@ -1,6 +1,6 @@
 ﻿﻿<?php
     if ($_POST['submit']) {
-        $mailFrom = "jonepwzx@server33.web-hosting.com";
+        $mailFrom = "admin@jon.engineering";
         $mailTo = "admin@jon.engineering";
         $txt = $_POST['message'];
 	    $subject = "A user wants to talk! From: " .$_POST['email'];
