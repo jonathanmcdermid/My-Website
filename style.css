@@ -320,6 +320,36 @@ input:focus, textarea:focus, submit:focus {
     }
 }
 
+/*ABOUT*/
+
+.about-content {
+    width: calc(100%-32px);
+    height: auto;
+    margin: 16px 16px 16px 16px;
+    justify-content:center;
+}
+
+.about-content img {
+    width: 100%;
+    float: none;
+    border: 4px solid #111;
+    margin: 0px 16px 16px 0px;
+}
+
+.about-content p {
+    width: 100%;
+    font-family: 'Tahoma','Tw Cen MT', 'Calibri';
+    font-weight: 200;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .about-content img {
+        float: left;
+        width: 512px;
+    }
+}
+
 /*FOOTER*/
 
 footer {
