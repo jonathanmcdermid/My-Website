@@ -1,8 +1,7 @@
 ﻿<?php
-
-    if ($_GET['submit']) {
-        $mailFrom = $_GET['email'];
-        $txt = $_GET['message'];
+    if ($_POST['submit']) {
+        $mailFrom = $_POST['email'];
+        $txt = $_POST['message'];
 	    $mailTo = "jonathan.mcdermid1@ucalgary.ca";
 	    $subject = "A website user wants to talk!";
         if (mail ($mailTo, $subject, $txt, $mailFrom)) { 
@@ -13,5 +12,4 @@
             echo '<p>Something went wrong, go back and try again!</p>'; 
         }
     }
-
 ?>
